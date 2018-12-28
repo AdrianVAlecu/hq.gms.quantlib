@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1546000291840
+Build-Jdk: 1.8.0_131
+Built-By: user
+Bundle-Description: This parent POM join the Maven plugin configuration 
+ with the dependencies configuration
+Bundle-DocURL: http://www.misys.com
+Bundle-ManifestVersion: 2
+Bundle-Name: fpp-library
+Bundle-SymbolicName: com.trmsys.fpp.library.fmb_fpp-library
+Bundle-Vendor: Misys
+Bundle-Version: 1.0.0.SNAPSHOT
+Cargo-MavenPluginVersion: 4.0.0.RELEASE
+Cargo-Reloadable: true
+Cargo-ScanPath: /
+Cargo-Type: lib
+Cargo-Uris: mvn:com.trmsys.fpp.library.fmb/fpp-library/1.0.0-SNAPSHOT,ga
+ v:com.trmsys.fpp.library.fmb:fpp-library:1.0.0.SNAPSHOT:jar
+Created-By: Cargo Maven Plugin
+Export-Package: tutorial_package;uses:="com.fasterxml.jackson.databind,c
+ om.fasterxml.jackson.databind.node,com.trmsys.fpp.api.document,com.trms
+ ys.fpp.api.rest,com.trmsys.fpp.api.result";version="1.0.0"
+Fpp-Lib: FMB
+Fpp-Lib-Dependency: FQPFinancialTools,FQPMathematicalTools
+Fpp-Lib-Preprocessor: 
+Fpp-MavenPluginVersion: 3.0.0.RELEASE
+Import-Package: 
+ com.fasterxml.jackson.databind;version="[2.9,3)",
+ com.fasterxml.jackson.databind.node;version="[2.9,3)",
+ com.trmsys.fpp.api.document;version="[3.4,4)",
+ com.trmsys.fpp.api.rest;version="[3.4,4)",
+ com.trmsys.fpp.api.result;version="[3.4,4)",
+ com.trmsys.fpp.cargo
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.0.201411031534
