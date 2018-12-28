@@ -1,0 +1,13 @@
+{
+  "associatedScript" : "tutorial_IRS",
+  "marketDataSetName" : "tutorial_IRS_2Dates_5Scenarios.scn",
+  "testName" : "tutorial_IRS_test",
+  "documents" : {
+    "tutorial_IRS.json" : {
+      "expectedResults" : {
+        "2017-04-13" : [-1216.9473252797923, -1291.552950734393, -115.374972569448, -1111.6907185797834, -1302.2983252291895],
+        "2017-10-13" : [-1051.7880971474099, -877.4615831638209, -932.0754235472663, -911.839956355275, -883.4414064844109]
+      }
+    }
+  }
+}
